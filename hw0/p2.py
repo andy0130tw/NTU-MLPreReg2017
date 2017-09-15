@@ -17,5 +17,5 @@ for x in range(w):
         r, g, b = mat[x, y]
         mat[x, y] = r // 2, g // 2, b // 2
 
-im.save('Q2.jpg')
+im.save('Q2.png')
 
