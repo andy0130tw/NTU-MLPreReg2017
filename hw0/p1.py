@@ -17,4 +17,5 @@ with open(sys.argv[1]) as f:
             idx = cnt
             cnt += 1
         out[idx][1] += 1
-    print('\n'.join([ '{} {} {}'.format(x[0], i, x[1]) for i, x in enumerate(out) ]))
+    with open('Q1.txt', 'w') as of:
+        of.write('\n'.join([ '{} {} {}'.format(x[0], i, x[1]) for i, x in enumerate(out) ]))

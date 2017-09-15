@@ -18,4 +18,3 @@ for x in range(w):
         mat[x, y] = r // 2, g // 2, b // 2
 
 im.save('Q2.png')
-
